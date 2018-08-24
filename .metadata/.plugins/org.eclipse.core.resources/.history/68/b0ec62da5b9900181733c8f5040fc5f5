@@ -1,0 +1,5 @@
+package com.myabstract;
+
+public abstract class Circle {
+
+}

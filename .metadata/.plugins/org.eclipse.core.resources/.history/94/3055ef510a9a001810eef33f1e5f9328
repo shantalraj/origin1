@@ -1,0 +1,11 @@
+import java.io.InputStreamReader;
+
+public class DemoReadData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InputStreamReader rd = new InputStreamReader(System.in);
+		int value = rd.read();
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+public class DemoArrOper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] numbers = {12,34, 44,54,34,55,65,78,90,23,90};
+		Arrays.fill(numbers, 0);;
+		for(int num:numbers)
+		{
+			System.out.println(num);
+		}
+	}
+
+}

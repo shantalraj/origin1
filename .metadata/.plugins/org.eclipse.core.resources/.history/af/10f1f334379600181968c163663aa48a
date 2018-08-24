@@ -1,0 +1,51 @@
+
+public class Date {
+	int year;
+	String month,day;
+	
+	public Date()
+	{
+		day = 23;
+		year = 1998;
+		month = 03;
+	}
+	
+	
+	public String getMonth() {
+		return month;
+	}
+
+
+	public void setMonth(String month) {
+		this.month = month;
+	}
+
+
+	public int getYear() {
+		return year;
+	}
+
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+
+	public String getDay() {
+		return day;
+	}
+
+
+	public void setDay(String day) {
+		this.day = day;
+	}
+
+
+	public void modify(String day, String month, int year)
+	{
+		this.day = day;
+		this.month = month;
+		this.year= year;
+	}
+
+}

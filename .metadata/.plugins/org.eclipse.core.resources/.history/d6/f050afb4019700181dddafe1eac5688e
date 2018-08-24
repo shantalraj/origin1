@@ -1,0 +1,7 @@
+package com.two;
+
+public class MyClass2 {
+	public void data() {
+		
+	}
+}

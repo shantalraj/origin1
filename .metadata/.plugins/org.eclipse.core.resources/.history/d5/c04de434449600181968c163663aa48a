@@ -1,0 +1,31 @@
+
+public class DemoBlock {
+
+	public DemoBlock()
+	{
+		System.out.println("constructor invoked");
+	}
+	{
+		System.out.println("non static block invoked");
+	}
+	
+	static {
+		System.out.println("static block invoked");
+	}
+	
+	public void display()
+	{
+		System.out.println("display block invoked");
+	}
+	public static void show()
+	{
+		System.out.println("static show function invoked");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//DemoBlock.show();
+		//DemoBlock d = new DemoBlock();
+		//d.display();
+	}
+
+}

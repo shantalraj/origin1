@@ -1,0 +1,38 @@
+package com.pojo;
+
+public class Employee extends Person {
+	private double empSal;
+	private int empID;
+	
+	public Employee()
+	{
+		empID = 0;
+		empSal = 1000;
+	}
+	
+	public Employee(int empId, double empSal)
+	{
+		this.empID = empId;
+		this.empSal = empSal;
+	}
+
+	public double getEmpSal() {
+		return empSal;
+	}
+
+	public void setEmpSal(double empSal) {
+		this.empSal = empSal;
+	}
+
+	public int getEmpID() {
+		return empID;
+	}
+
+	public void setEmpID(int empID) {
+		this.empID = empID;
+	}
+	public void show()
+	{
+		System.out.println("Name:-\t"+ getName() +"Age:-\t"+ getAge() + "\t" + empID+"\t"+empSal);
+	}
+}

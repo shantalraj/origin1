@@ -1,0 +1,34 @@
+import java.lang.Math;
+class sup {	
+	public double ceiling(double a)
+	{
+		return Math.ceil(a);
+	}
+	public double maximum(double a, double b)
+	{
+		return Math.max(a, b);
+	}
+	public double sqroot(double b)
+	{
+		return Math.sqrt(b);
+	}
+	
+	public float rounded(double a) {
+		return Math.round(a);
+	}
+	public display()
+	{
+		System.out.println(s.ceiling(4.75));
+		System.out.println(s.maximum(4.78, 3.55));
+		System.out.println(s.sqroot(6.25));
+		System.out.println(s.rounded(6.54));
+	}
+}
+
+public class Ex2{
+	public static void main(String []args)
+	{
+		sup s = new sup();
+		
+	}
+}

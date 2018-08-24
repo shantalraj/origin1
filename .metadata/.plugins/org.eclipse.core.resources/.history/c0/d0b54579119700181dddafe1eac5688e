@@ -1,0 +1,28 @@
+package com.pojo;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
+public class Student {
+
+	String name;
+	ArrayList marks = new ArrayList();
+	int rollno;
+	public Student()
+	{
+		name = "NoOne";
+		marks.add(0);
+		marks.add(0);
+		rollno = 101;
+	}
+	public Student(String name, ArrayList marks, int rollno)
+	{
+		this.name = name;
+		this.marks = marks;
+		this.rollno = rollno;
+	}
+	
+	public void display() {
+		System.out.println(name+"\t"+marks+"\t"+rollno);
+	}
+}

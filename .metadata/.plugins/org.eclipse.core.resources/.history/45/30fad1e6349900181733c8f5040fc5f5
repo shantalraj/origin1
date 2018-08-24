@@ -1,0 +1,17 @@
+package com.pojo;
+
+import java.util.Scanner;
+
+public class TestEmpUser {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the age");
+		int a = sc.nextInt();
+		
+		System.out.println("please enter the name");
+		String n = sc.next();	
+	}
+
+}

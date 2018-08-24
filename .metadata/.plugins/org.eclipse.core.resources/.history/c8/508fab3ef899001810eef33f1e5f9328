@@ -1,0 +1,18 @@
+
+public class DemoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name = "Citi";
+		System.out.println("initial value for name:- "+name);
+//		name.concat(",Pune");									//String object is immutable, Combo1
+		name = name.concat(",Pune");
+//		name = name.replace('i','e');
+//		name = name.substring(3);
+		int len = name.length();
+		System.out.println(len);
+//		name = name.toLowerCase();
+		System.out.println("after concatenation:- "+name); 				
+	}
+
+}

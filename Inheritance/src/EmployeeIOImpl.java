@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+import com.pojo.Employee;
+
+public class EmployeeIOImpl implements EmployeeIO {
+
+	@Override
+	public Employee readEmployee() {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the age");
+		int a = sc.nextInt();
+		
+		System.out.println("please enter the name");
+		String n = sc.next();	
+		
+		System.out.println("Please enter the emp ID");
+		int eid = sc.nextInt();
+		
+		System.out.println("Please enter his/her Salary");
+		double sal = sc.nextDouble();
+		Employee emp = new Employee(eid,sal,a,n);
+//		emp.display();
+		return null;
+//		return (eid + " " + n + " " + a + " " + sal);
+	}
+
+	@Override
+	public void writeEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

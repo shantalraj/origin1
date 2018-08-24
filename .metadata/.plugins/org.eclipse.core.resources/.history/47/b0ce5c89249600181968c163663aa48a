@@ -1,0 +1,21 @@
+
+public class Person {
+	private int age;
+	private String name;
+	
+	// access_sp return_type fun_name(){  }
+	public void display()
+	{
+		System.out.println("Name:- "+name+"\t"+"Age:- "+age);	
+	}
+	public void setValues()
+	{
+		age = 20;
+		name = "Shantal";
+	}
+	public void setValues1(int a, String n)
+	{
+		age=a;
+		name=n;
+	}
+}

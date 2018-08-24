@@ -1,0 +1,32 @@
+
+public class DemoJaggedArr {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String [] names = {"Hey","Hi"};
+		int [][]values = new int[3][];
+		
+		values[0] = new int[4];
+		values[0][0] = 3;
+		values[0][1] = 3;
+		values[0][2] = 3;
+		values[0][3] = 3;
+		
+		values[1] = new int[1];
+		values[1][0] = 3;
+		
+		values[2] = new int[2];
+		values[2][0] = 3;
+		values[2][1] = 3;
+		
+		for(int []x:values)
+		{
+			for(int y:x)
+			{
+				System.out.print(y + "\t");
+			}
+			System.out.println();
+		}
+	}
+
+}

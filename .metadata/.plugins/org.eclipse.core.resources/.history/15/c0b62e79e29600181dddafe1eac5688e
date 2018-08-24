@@ -1,0 +1,21 @@
+
+public class Arr {
+	public static void main(String []args) {
+		int [] numbers;
+		
+		numbers = new int[5];
+		numbers[0]=Integer.parseInt(args[0]);
+		numbers[1]=Integer.parseInt(args[1]);
+		numbers[2]=Integer.parseInt(args[2]);
+		numbers[3]=Integer.parseInt(args[3]);
+		numbers[4]=Integer.parseInt(args[4]);
+		int i;
+		for(i=0;i<5;i++)
+		{
+			System.out.println("\t"+numbers[i]);
+		}
+		int sum = numbers[0]+numbers[1]+numbers[2]+numbers[3]+numbers[4];
+		
+		System.out.println("--------------\nSUM :- "+sum);
+	}
+}

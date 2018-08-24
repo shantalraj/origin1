@@ -1,0 +1,14 @@
+
+public class TestPerson {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Class_name ref_name
+		Person p;	// variable not data member
+		// ref_name = new Class_name
+		p = new Person();	//allocates the memory
+		//ref_name.name_of_fun();
+		p.display();
+	}
+
+}

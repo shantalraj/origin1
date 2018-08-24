@@ -1,0 +1,12 @@
+
+public class Arr {
+	public static void main(String []args) {
+		int [] numbers;
+		numbers = new int[3];
+		numbers[0]=100;
+		numbers[1]=250;
+		numbers[2]=130;
+		System.out.println("0th element = "+numbers[0]);
+		
+	}
+}

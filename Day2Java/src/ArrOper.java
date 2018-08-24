@@ -1,0 +1,25 @@
+
+public class ArrOper {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int [] numbers = {12,34, 44,54,34,55,65,78,90,23,90};
+		int fval = 54;
+		int i=0;
+		boolean flag = false;
+		while(i <numbers.length)
+		{
+			if(fval==numbers[i])
+			{
+				flag = true;
+				break;
+			}
+			i++;
+		}
+		if(flag)
+			System.out.println(fval+" FOUND at "+i+"th position");
+		else
+			System.out.println(fval + "NOT FOUND");
+	}
+
+}

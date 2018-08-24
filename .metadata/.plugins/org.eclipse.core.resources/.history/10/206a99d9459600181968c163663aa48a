@@ -1,0 +1,6 @@
+
+public class DemoCommandLine {
+	public static void main(String[] args) {
+		System.out.println("no. of Arguments:- "+ args);
+	}
+}

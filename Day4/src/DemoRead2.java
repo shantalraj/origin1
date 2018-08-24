@@ -1,0 +1,24 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class DemoRead2 {
+	public static void main(String[] args) {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		try {
+			System.out.println("Please enter NUM 1:");
+			int a = Integer.parseInt(br.readLine());
+			System.out.println("You entered:-"+a);
+			
+			System.out.println("Please enter NUM 2:");
+			int b = Integer.parseInt(br.readLine());
+			System.out.println("You entered:-"+b);
+			
+			System.out.println("MAX:"+(a>b?a:b));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

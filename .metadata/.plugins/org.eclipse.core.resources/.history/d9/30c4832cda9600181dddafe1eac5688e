@@ -1,0 +1,11 @@
+
+public class Demo1DObject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person [] persons;
+		persons=new Person[5];
+		persons[0] = new Person();
+	}
+
+}
